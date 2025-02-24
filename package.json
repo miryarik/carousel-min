@@ -2,7 +2,7 @@
     "name": "carousel-min",
     "version": "1.0.0",
     "description": "A simple reusable image carousel",
-    "main": "index.js",
+    "main": "./dist/main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack --config webpack.prod.js",
@@ -16,5 +16,17 @@
     "keywords": [
         "starter",
         "template"
-    ]
+    ],
+    "files": [
+        "./dist/",
+        "./README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/miryarik/carousel-min.git"
+    },
+    "bugs": {
+        "url": "https://github.com/miryarik/carousel-min/issues"
+    },
+    "homepage": "https://github.com/miryarik/carousel-min#readme"
 }
