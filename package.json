@@ -18,8 +18,8 @@
         "template"
     ],
     "files": [
-        "./dist/",
-        "./README.md"
+        "dist/",
+        "README.md"
     ],
     "repository": {
         "type": "git",
